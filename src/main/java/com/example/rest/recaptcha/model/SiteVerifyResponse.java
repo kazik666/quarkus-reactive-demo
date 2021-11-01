@@ -1,4 +1,4 @@
-package com.example.model;
+package com.example.rest.recaptcha.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;

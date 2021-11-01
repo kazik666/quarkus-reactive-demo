@@ -1,4 +1,4 @@
-package com.example;
+package com.example.rest.dotpay;
 
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.http.ContentType;
@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 import static io.restassured.RestAssured.given;
 
 @QuarkusTest
-class DotPayMockResourceTest {
+class MockResourceTest {
 
     @Test
     void testHelloEndpoint() {

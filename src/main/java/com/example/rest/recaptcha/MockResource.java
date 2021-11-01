@@ -1,6 +1,6 @@
-package com.example;
+package com.example.rest.recaptcha;
 
-import com.example.model.SiteVerifyResponse;
+import com.example.rest.recaptcha.model.SiteVerifyResponse;
 import io.smallrye.mutiny.Uni;
 
 import javax.ws.rs.*;
@@ -8,7 +8,7 @@ import javax.ws.rs.core.MediaType;
 import java.util.Date;
 
 @Path("/recaptcha/api/siteverify")
-public class ReCapchaMockResource {
+public class MockResource {
     @POST
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_FORM_URLENCODED)

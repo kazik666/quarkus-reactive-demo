@@ -1,4 +1,4 @@
-package com.example;
+package com.example.rest.recaptcha;
 
 import io.quarkus.test.junit.QuarkusTest;
 import io.restassured.http.ContentType;
@@ -9,7 +9,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.notNullValue;
 
 @QuarkusTest
-class ReCapchaMockResourceTest {
+class MockResourceTest {
 
     @Test
     void testSiteVerifyEndpoint() {

@@ -1,6 +1,6 @@
-package com.example;
+package com.example.rest.dotpay;
 
-import com.example.model.PaymentEntry;
+import com.example.rest.dotpay.model.PaymentEntry;
 import io.smallrye.mutiny.Uni;
 import lombok.val;
 
@@ -13,7 +13,7 @@ import java.util.Collections;
 import java.util.List;
 
 @Path("/s2/login/api/purchase_history/")
-public class DotPayMockResource {
+public class MockResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Uni<List<PaymentEntry>> api(@QueryParam("email") String email) {
